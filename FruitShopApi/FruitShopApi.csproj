@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+    <Folder Include="Infrastructure\" />
+    <Folder Include="Infrastructure\Data\" />
+    <Folder Include="Application\" />
+    <Folder Include="Domain\" />
+    <Folder Include="Presentation\" />
+    <Folder Include="Presentation\Controllers\" />
+    <Folder Include="Infrastructure\Receipts\" />
+    <Folder Include="Application\Service\" />
+    <Folder Include="Infrastructure\Data\Repository\" />
+    <Folder Include="Domain\Service\" />
+    <Folder Include="Domain\Entity\" />
+    <Folder Include="Domain\Interface\" />
+    <Folder Include="Application\Interface\" />
+    <Folder Include="Resources\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\Resources\Offer.txt" />
+    <Content Remove="wwwroot\Resources\OfferCategory.txt" />
+    <Content Remove="wwwroot\Resources\Product.txt" />
+    <Content Remove="wwwroot\Resources\Purchase.txt" />
+  </ItemGroup>
+</Project>

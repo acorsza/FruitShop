@@ -1,0 +1,5 @@
+﻿ID;PRODUCT;QUANTITY
+1;Pear;4
+1;Orange;5
+1;Apple;6
+1;Cucumber;7
