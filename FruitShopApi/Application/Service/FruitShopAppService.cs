@@ -37,13 +37,13 @@ namespace FruitShopApi.Application.Service
                         switch (offer.Category)
                         {
                             case "1":
-                                r.Total = product.Price * (offer.OfferDiscount / 100) * purchase.Quantity;
-                                break;
-                            case "2":
                                 purchase.Quantity += 1;
                                 break;
+                            case "2":
+                                r.Total += product.Price * (offer.OfferDiscount / 100) * purchase.Quantity;
+                                break;
                             case "3":
-                                r.Total = product.Price - offer.OfferDiscount * purchase.Quantity;
+                                r.Total += product.Price - offer.OfferDiscount * purchase.Quantity;
                                 break;
                             default:
                                 break;
