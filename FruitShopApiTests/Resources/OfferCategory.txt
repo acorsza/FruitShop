@@ -1,0 +1,4 @@
+﻿ID;DESCRIPTION
+1;BuyQuantityAndGetFreeProduct
+2;BuyQuantityAndGetPercentageDiscount
+3;BuyQuantityAndGetCashback

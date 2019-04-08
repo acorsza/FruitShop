@@ -1,0 +1,5 @@
+﻿ID;PRODUCT;PRICE
+1;Pear;0.75
+2;Orange;1
+3;Apple;0.9
+4;Cucumber;2

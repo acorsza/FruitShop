@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FruitShopApi", "FruitShopApi\FruitShopApi.csproj", "{75B1C97D-3566-4A7B-9989-CFD5D833353D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FruitShopApiTests", "FruitShopApiTests\FruitShopApiTests.csproj", "{C5A79F26-EDF2-4A59-A23D-79C8317DAD71}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,5 +15,9 @@ Global
 		{75B1C97D-3566-4A7B-9989-CFD5D833353D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{75B1C97D-3566-4A7B-9989-CFD5D833353D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{75B1C97D-3566-4A7B-9989-CFD5D833353D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5A79F26-EDF2-4A59-A23D-79C8317DAD71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5A79F26-EDF2-4A59-A23D-79C8317DAD71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5A79F26-EDF2-4A59-A23D-79C8317DAD71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5A79F26-EDF2-4A59-A23D-79C8317DAD71}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
