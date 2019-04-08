@@ -20,7 +20,7 @@ namespace FruitShopApiTests
             IFruitShopService f = new FruitShopService(r1, r2, r3);
             IFruitShopAppService fApp = new FruitShopAppService(f);
             Receipt r = fApp.RunFruitShop();
-            Assert.Equal(5.4M, Convert.ToDecimal(r.Total));
+            Assert.Equal(26.15M, Convert.ToDecimal(r.Total));
         }
     }
 }

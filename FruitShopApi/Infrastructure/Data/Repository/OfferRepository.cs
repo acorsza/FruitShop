@@ -23,8 +23,8 @@ namespace FruitShopApi.Infrastructure.Data.Repository
                        OfferId = int.Parse(x[0]),
                        Product = x[1],
                        Category = x[2],
-                       MinQuantity = int.Parse(x[2]),
-                       OfferDiscount = int.Parse(x[3])
+                       MinQuantity = int.Parse(x[3]),
+                       OfferDiscount = int.Parse(x[4])
                    }).FirstOrDefault(x => x.Product == id);
         }
 
@@ -38,8 +38,8 @@ namespace FruitShopApi.Infrastructure.Data.Repository
                        OfferId = int.Parse(x[0]),
                        Product = x[1],
                        Category = x[2],
-                       MinQuantity = int.Parse(x[2]),
-                       OfferDiscount = int.Parse(x[3])
+                       MinQuantity = int.Parse(x[3]),
+                       OfferDiscount = int.Parse(x[4])
                    }).ToList();
         }
 

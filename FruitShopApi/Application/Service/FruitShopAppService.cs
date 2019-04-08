@@ -29,6 +29,8 @@ namespace FruitShopApi.Application.Service
                 Product product = this._service.GetProductById(purchase.Product);
                 Offer offer = this._service.GetOfferByProduct(purchase.Product);
                 r.Purchase.Add(purchase);
+
+                decimal result = 0;
                 if (offer != null)
                 {
                     if (purchase.Quantity >= offer.MinQuantity)
@@ -36,29 +38,30 @@ namespace FruitShopApi.Application.Service
                         switch (offer.Category)
                         {
                             case "1":
+                                result = product.Price * purchase.Quantity;
                                 purchase.Quantity += 1;
                                 break;
                             case "2":
-                                r.Total += (product.Price * (Math.Abs(offer.OfferDiscount - 100) / 100)) * purchase.Quantity;
+                                result = (product.Price * (Math.Abs(offer.OfferDiscount - 100M) / 100M)) * purchase.Quantity;
                                 break;
                             case "3":
-                                r.Total += product.Price - ((offer.OfferDiscount / 100) * purchase.Quantity);
+                                result = product.Price - ((offer.OfferDiscount / 100) * purchase.Quantity);
                                 break;
                             default:
-                                r.Total += product.Price * purchase.Quantity;
+                                result = product.Price * purchase.Quantity;
                                 break;
                         }
 
                     } else
                     {
-                        r.Total += product.Price * purchase.Quantity;
+                        result = product.Price * purchase.Quantity;
                     }
 
                 } else
                 {
-                    r.Total += product.Price * purchase.Quantity;
+                    result = product.Price * purchase.Quantity;
                 }
-
+                r.Total += result;
             }
 
             return r;
