@@ -1,22 +1,6 @@
 ﻿<Properties StartupConfiguration="{75B1C97D-3566-4A7B-9989-CFD5D833353D}|Default">
   <MonoDevelop.Ide.ItemProperties.FruitShopApi PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="FruitShopApi/Application/Service/FruitShopAppService.cs">
-    <Files>
-      <File FileName="FruitShopApi/Presentation/Controllers/FruitShopController.cs" Line="27" Column="1" />
-      <File FileName="FruitShopApi/Startup.cs" Line="37" Column="51" />
-      <File FileName="FruitShopApi/Program.cs" Line="1" Column="1" />
-      <File FileName="FruitShopApi/Infrastructure/Data/Repository/PurchaseRepository.cs" Line="26" Column="37" />
-      <File FileName="FruitShopApi/Infrastructure/Data/Repository/OfferRepository.cs" Line="28" Column="37" />
-      <File FileName="FruitShopApi/Resources/Offer.txt" Line="4" Column="11" />
-      <File FileName="FruitShopApi/Application/Service/FruitShopAppService.cs" Line="58" Column="1" />
-      <File FileName="FruitShopApi/Domain/Interface/IFruitShopService.cs" Line="9" Column="19" />
-      <File FileName="FruitShopApi/Domain/Service/FruitShopService.cs" Line="25" Column="1" />
-      <File FileName="FruitShopApi/Resources/Product.txt" Line="3" Column="9" />
-      <File FileName="FruitShopApi/Resources/OfferCategory.txt" Line="3" Column="31" />
-      <File FileName="FruitShopApi/Domain/Entity/Offer.cs" Line="8" Column="22" />
-      <File FileName="FruitShopApi/Infrastructure/Data/Repository/ProductRepository.cs" Line="26" Column="37" />
-      <File FileName="FruitShopApi/Resources/Purchase.txt" Line="5" Column="13" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
@@ -24,9 +8,7 @@
             <Node name="FruitShopApi" expanded="True">
               <Node name="Application" expanded="True">
                 <Node name="Interface" expanded="True" />
-                <Node name="Service" expanded="True">
-                  <Node name="FruitShopAppService.cs" selected="True" />
-                </Node>
+                <Node name="Service" expanded="True" />
               </Node>
               <Node name="Domain" expanded="True">
                 <Node name="Entity" expanded="True" />
@@ -39,8 +21,11 @@
                 </Node>
               </Node>
               <Node name="Presentation" expanded="True">
-                <Node name="Controllers" expanded="True" />
+                <Node name="Controllers" expanded="True">
+                  <Node name="FruitShopController.cs" selected="True" />
+                </Node>
               </Node>
+              <Node name="Properties" expanded="True" />
               <Node name="Resources" expanded="True" />
             </Node>
           </Node>
@@ -52,9 +37,8 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/aderleifilho/Developer/FruitShopApi/FruitShopApi/Application/Service/FruitShopAppService.cs" relfile="FruitShopApi/Application/Service/FruitShopAppService.cs" line="58" column="1" />
-      <Breakpoint file="/Users/aderleifilho/Developer/FruitShopApi/FruitShopApi/Application/Service/FruitShopAppService.cs" relfile="FruitShopApi/Application/Service/FruitShopAppService.cs" line="33" column="34" />
-      <Breakpoint file="/Users/aderleifilho/Developer/FruitShopApi/FruitShopApi/Application/Service/FruitShopAppService.cs" relfile="FruitShopApi/Application/Service/FruitShopAppService.cs" line="30" column="28" />
+      <Breakpoint file="/Users/aderleifilho/Developer/FruitShopApi/FruitShopApi/Application/Service/FruitShopAppService.cs" relfile="FruitShopApi/Application/Service/FruitShopAppService.cs" line="59" column="28" />
+      <Breakpoint file="/Users/aderleifilho/Developer/FruitShopApi/FruitShopApi/Application/Service/FruitShopAppService.cs" relfile="FruitShopApi/Application/Service/FruitShopAppService.cs" line="64" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
