@@ -19,6 +19,7 @@ Correct response:
 {"total":26.15,"receiptId":1,"purchase":[{"purchaseId":1,"product":"Pear","quantity":5},{"purchaseId":1,"product":"Orange","quantity":5},{"purchaseId":1,"product":"Apple","quantity":6},{"purchaseId":1,"product":"Cucumber","quantity":8}]}
 
 Total per product
+
 Pear     Total quantity: 4  Total Price: 3    Offer: +1 in Quantity    -> Final Quantity: 5
 
 Orange   Total quantity: 5  Total Price: 5    Offer: 25% discount      -> Final Price after Discount: 3.75
