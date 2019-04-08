@@ -25,7 +25,7 @@ namespace FruitShopApi.Infrastructure.Data.Repository
                        Category = x[2],
                        MinQuantity = int.Parse(x[2]),
                        OfferDiscount = int.Parse(x[3])
-                   }).Single(x => x.Product == id);
+                   }).FirstOrDefault(x => x.Product == id);
         }
 
         public IEnumerable<Offer> GetAll()

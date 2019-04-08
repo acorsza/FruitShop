@@ -23,7 +23,7 @@ namespace FruitShopApi.Infrastructure.Data.Repository
                        ProductName = x[1],
                        Price = decimal.Parse(x[2])
 
-                   }).Single(x => x.ProductName == id);
+                   }).FirstOrDefault(x => x.ProductName == id);
         }
 
         public IEnumerable<Product> GetAll()

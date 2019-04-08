@@ -19,6 +19,7 @@ namespace FruitShopApi.Application.Service
         public Receipt RunFruitShop()
         {
             Receipt r = new Receipt();
+            r.Purchase = new List<Purchase>();
             r.ReceiptId = 1;
             r.Total = 0;
             IEnumerable<Purchase> purchases = this._service.GetAllPurchases();

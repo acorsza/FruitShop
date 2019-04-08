@@ -23,7 +23,7 @@ namespace FruitShopApi.Infrastructure.Data.Repository
                        Product = x[1],
                        Quantity = int.Parse(x[2])
 
-                   }).Single(x => x.PurchaseId == id);
+                   }).FirstOrDefault(x => x.PurchaseId == id);
         }
 
         public IEnumerable<Purchase> GetAll()
