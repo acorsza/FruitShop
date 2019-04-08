@@ -29,7 +29,6 @@ namespace FruitShopApi.Application.Service
                 Product product = this._service.GetProductById(purchase.Product);
                 Offer offer = this._service.GetOfferByProduct(purchase.Product);
                 r.Purchase.Add(purchase);
-                r.Total = 0;
                 if (offer != null)
                 {
                     if (purchase.Quantity >= offer.MinQuantity)
